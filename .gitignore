@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Large datasets (>50MB) - keep smaller ones
+real product2.csv
+product_recommendation_dataset.csv
+intern dataset.csv
+workforce_readiness_synthetic_5000.csv
+google_books_dataset - google_books_dataset.csv
+Instagram_Analytics.csv
+
+# System
+*.db
+*.sqlite3
+Thumbs.db
+.DS_Store
+
+# Media
+*.avi
+*.mp4
