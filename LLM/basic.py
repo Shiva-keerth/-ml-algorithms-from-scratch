@@ -6,7 +6,7 @@ import os
 client = Groq(api_key=os.environ.get("GROQ_API_KEY", "your-api-key-here"))
 
 # Define the model ID as a string to use in the loop
-model_id = "llama-3.3-70b-versatile"
+model_id = "openai/gpt-oss-120b"
 
 while True:
     user_input = input("You: ")

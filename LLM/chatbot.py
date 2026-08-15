@@ -10,7 +10,7 @@ temperature = st.sidebar.slider("Creativity", 0.0, 1.0, 0.7)  # Fixed slider ran
 style = st.sidebar.selectbox("Response Style", ["Simple", "Detailed", "Professional"])
 
 system_prompt = f"You are a helpful assistant. Explain things in a {style} way in English."
-model_id = "llama-3.3-70b-versatile"
+model_id = "openai/gpt-oss-120b"
 
 # Initialize session state for history if it doesn't exist
 if "messages" not in st.session_state:
